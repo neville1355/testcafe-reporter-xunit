@@ -1,7 +1,7 @@
 {
-  "name": "testcafe-reporter-xunit",
+  "name": "testcafe-reporter-xunit-odaia",
   "version": "2.2.2",
-  "description": "xUnit TestCafe reporter plugin.",
+  "description": "xUnit TestCafe reporter plugin with odaia customizations.",
   "repository": "https://github.com/DevExpress/testcafe-reporter-xunit",
   "author": {
     "name": "Developer Express Inc.",
