@@ -47,7 +47,7 @@ module.exports = function () {
 
             var openTag = `<testcase classname="${this.currentFixture.name.replace("Feature: ", "")}" ` +
                           `file="${this.currentFixture.path}" ` +
-                          `time="${testRunInfo.durationMs / 1000}">\n`;
+                          `name=" " time="${testRunInfo.durationMs / 1000}">\n`;
 
             this.report += this.indentString(openTag, 2);
 
