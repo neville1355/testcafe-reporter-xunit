@@ -45,7 +45,7 @@ module.exports = function () {
 
             name = this.escapeHtml(name);
 
-            var openTag = `<testcase classname="${this.currentFixture.name.replace("Feature: ", "")}" ` +
+            var openTag = `<testcase classname="${this.currentFixture.name.replace("Feature: ", "") || name}" ` +
                           `file="${this.currentFixture.path}" ` +
                           `name=" " time="${testRunInfo.durationMs / 1000}">\n`;
 
